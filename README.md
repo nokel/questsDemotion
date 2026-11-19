@@ -2,8 +2,6 @@
 
 A Vencord userplugin that stops Discord from opening on the Quests page at startup. Discord opens on the page you last had open instead.
 
-Some accounts are in a Discord experiment that redirects to Quests every time Discord starts. Discord also stopped remembering your last page, so without the experiment it always opens on Home. This plugin turns off the redirect and restores the last page you had open. If that channel no longer exists, Discord opens on Home.
-
 ## Install
 
 Custom Vencord plugins need Vencord built from source. You need [git](https://git-scm.com), [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io).
